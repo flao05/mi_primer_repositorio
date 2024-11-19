@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Creativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio (Hero) -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hola, soy [Tu Nombre]</h1>
+            <p>Diseñador Web y Desarrollador Creativo</p>
+            <a href="#portfolio" class="btn">Explora mi trabajo</a>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="about">
+        <div class="about-content">
+            <h2>Sobre mí</h2>
+            <p>Soy un apasionado diseñador web con más de 5 años de experiencia creando soluciones digitales innovadoras. Mi enfoque es crear sitios web que sean visualmente atractivos y funcionales.</p>
+            <a href="mailto:tuemail@dominio.com" class="btn">Contáctame</a>
+        </div>
+    </section>
+
+    <!-- Sección portafolio -->
+    <section id="portfolio">
+        <h2>Mi Portafolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Tu Nombre] - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Scripts 
+    <script>
+        // Añadir funcionalidad para navegación suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
+-->
+
+</body>
+</html>
